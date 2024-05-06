@@ -9,5 +9,8 @@
 
 ## How the pipeline works
 ---
-* Run $docker compose up$
-* 
+* In the Airflow UI create connections for both Azure Blob Storage and Databricks
+* Create a new job in databricks to have a job_id to use
+* Run ```docker compose up```
+  
+![dataflow](https://github.com/olmedillamarcos/ETL-pipeline/assets/44475179/62769e6f-5ec7-460a-ad91-f6e688a34516)
